@@ -1,0 +1,41 @@
+.box{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(243, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    size: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header div{
+    size: 30px;
+}
+.picContainer img{
+    height: 80px;
+    width: 80px;
+
+}
+.picContainer {
+    display: flex;
+    justify-content: center;
+
+}
